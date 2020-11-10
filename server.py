@@ -1,4 +1,3 @@
-# importing the necessary modules
 import socket, threading, argparse
 import random, string, os, datetime
 from Crypto.PublicKey import RSA
