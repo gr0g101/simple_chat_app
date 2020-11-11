@@ -14,4 +14,4 @@ The client has three parameters, -s server ip, -p server port number, -u usernam
 The server can be terminated by typing 'TERMINATE' on the console.
 The client can be terminated by typing 'EXIT' on the console.
 
-For improvement I will add digital signature verification to the project.
+For improvement I will add digital signature.
