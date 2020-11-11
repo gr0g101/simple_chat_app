@@ -1,7 +1,7 @@
 # chat_app_with_encryption
-It is a simple chat application which uses both, asymmetric and symmetric encryption to operate. The main motivation behind the project was that, I wanted to learn more about cryptography and its implementation, so I decided to create this application.
+It is a simple chat application which uses both, asymmetric and symmetric encryption to function. The main motivation behind the project was that, I wanted to learn more about cryptography and its implementation, so I decided to create this application.
 
-For development python version 3.8.3 had been used. The server and the client exchanging the public keys. Then the server uses RSA encryption to encrypt a random generated session key and it will be shared with the client. After this process the client will decrypt it with its own private key and uses that secret to encryp/decrypt messages using AES in CFB mode. The server can handle multiple clients connected, and it doesn't keep the messages.
+For development python version 3.8.3 had been used. The server and the client generating public and private keys at runtime and exchanging them. Then the server uses the client public key to encrypt a random generated session key and it will be shared with the client. After this process the client will decrypt it with its own private key and uses that secret to encryp/decrypt messages using AES in CFB mode. The server can handle multiple clients connected, and it doesn't logs the messages.
 
 Usage:
 
